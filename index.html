@@ -4,26 +4,122 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <title>NotiGaming</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>GAMING&TECHNOLOGY</title>
 </head>
-<body class="container pt-3 mb-2 bg-primary-subtle text-primary-emphasis">
-    <main>
-        <h1>NotiGaming</h1>
-        <div class="card mb-3 text-bg-info" style="max-width: 540px;">
+<body class="mb-2 bg-primary-subtle text-primary-emphasis">
+    <!--BARRA DE NAVEGACION-->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Navbar w/ text</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 ps-5">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item ps-3">
+                        <a class="nav-link" href="#gaming">Gaming</a>
+                    </li>
+                    <li class="nav-item ps-3">
+                        <a class="nav-link" href="#tecnologia">Tecnología</a>
+                    </li>
+                </ul>
+                <span class="navbar-text">
+                    Navbar text with an inline element
+                </span>
+            </div>
+        </div>
+    </nav>
+    <!--BARRA DE NAVEGACION-->
+
+    <main class="container mb-5 mt-5 pt-3">
+        <h1 class="text-center pb-3 customtitle">Gaming & Tecnología</h1>
+        <div class="card mb-3 text-bg-light border-primary" style="max-width: 60rem;">
             <div class="row g-0">
                 <div class="col-md-4">
-                <img src="./media/notigaming.jpg" height="180" class="img-fluid rounded-start" alt="noticias gaming">
+                <img src="./media/gta6.jpeg" class="img-fluid rounded-start" alt="GTA6">
                 </div>
                 <div class="col-md-8">
                 <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <h5 class="card-title">SE REVELA GAMEPLAY DE GTA6! 😱​</h5>
+                    <p class="card-text"><strong>Filtración de supuesto gameplay de GTAVI.</strong> Varias fuentes indican que un empleado de Rockstar ha filtrado gameplay del juego más esperado del año.</p>
                     <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
                 </div>
                 </div>
             </div>
         </div>
+        <div class="card mb-3 text-bg-light border-primary" style="max-width: 60rem;">
+            <div class="row g-0">
+                <div class="col-md-4">
+                <img src="./media/notigaming.jpg"  class="img-fluid rounded-start" alt="noticias gaming">
+                </div>
+                <div class="col-md-8">
+                <div class="card-body">
+                    <h5 class="card-title">LO ULTIMO EN NOTICIAS GAMING Y TECNOLOGIA</h5>
+                    <p class="card-text">El mundo tecnológico sigue avanzando a pasos agigantados. Sigue las noticias de último momento del mundo de los videojuegos, PC's y más.</p>
+                    <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                </div>
+                </div>
+            </div>
+        </div>
+
+        <!--NOTICIAS GAMING-->
+        <h2 class="text-center mt-3 customtitle" id="gaming">Noticias Gaming</h2>
+        <article class="container text-center customarticle">
+            <div class="row">
+                <div class="col">
+                    <div class="card" style="width: 24rem;">
+                        <img src="./media/call-of-duty-nintendo-switch-2 v2.jpg" class="card-img-top" alt="cod en nintendo">
+                        <div class="card-body">
+                            <h5>Nintendo Switch 2 y el regreso de Call of Duty</h5>
+                            <p class="card-text">¡Así es! Tras más de una década de ausencia (desde Call of Duty: Ghosts en Wii U), la saga regresa oficialmente a Nintendo. El acuerdo firmado por Microsoft incluye el lanzamiento de Call of Duty: Modern Warfare 4, el cual se estrenará el 23 de octubre de 2026.</p>
+                        </div>
+                    </div>
+            </div>
+                <div class="col">
+                    <div class="card" style="width: 24rem;">
+                        <img src="./media/subida v2.jpg" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <h5>Aumento de precios en el Gaming!</h5>
+                            <p class="card-text">Las principales compañías de videojuegos han implementado incrementos históricos en el hardware, rompiendo la tendencia habitual en la que las consolas se vuelven más baratas con el tiempo. Esta subida de precios responde a factores como el aumento en los costes de producción, los aranceles globales y la inflación.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <!--NOTICIAS GAMING-->
+
+        <!--NOTICIAS TECNOLOGIA-->
+        <h2 class="text-center mt-3 customtitle" id="tecnologia">Noticias Tecnológicas</h2>
+        <article class="container text-center customarticle">
+            <div class="row">
+                <div class="col">
+                    <div class="card" style="width: 24rem;">
+                        <img src="./media/google e IA.jpg" class="card-img-top" alt="cod en nintendo">
+                        <div class="card-body">
+                            <h5>Google apuesta fuerte por la nueva generación de inteligencia artificial</h5>
+                            <p class="card-text">Google impulsa su ecosistema con Gemini, su asistente de inteligencia artificial (IA). Esta tecnología comprende lenguaje natural, analiza datos y genera contenido, integrándose de forma nativa en su buscador, aplicaciones y servicios en la nube para ayudarte a redactar, planificar y explorar ideas.</p>
+                        </div>
+                    </div>
+            </div>
+                <div class="col">
+                    <div class="card" style="width: 24rem;">
+                        <img src="./media/chinayrobots.jpg" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <h5>China acelera su liderazgo en inteligencia artificial y robótica</h5>
+                            <p class="card-text">China se ha consolidado como el líder indiscutible en la fabricación y despliegue de robótica a nivel mundial. El país asiático no solo encabeza la instalación de autómatas industriales, sino que ha tomado la delantera en la producción masiva de robots humanoides potenciados por Inteligencia Artificial (IA), integrándolos aceleradamente en fábricas, competiciones e incluso preparando su llegada a los hogares.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <!--NOTICIAS TECNOLOGIA-->
     </main>
+
+    <footer class="container-fluid bg-body-tertiary fixed-bottom">footer</footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>

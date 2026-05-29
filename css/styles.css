@@ -1,0 +1,11 @@
+.customtitle{
+    display: flex;
+    justify-content: center;
+    background-color: #81f0f03a;
+    border-radius: 10px;
+    color: #470647;
+}
+.customarticle img{
+    width: 24rem;
+    height: 16rem;
+}
